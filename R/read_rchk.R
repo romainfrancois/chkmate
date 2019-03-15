@@ -11,6 +11,7 @@
 #' @importFrom rlang seq2
 #' @importFrom tibble tibble
 #' @importFrom tidyr unnest
+#' @importFrom purrr map map2
 #'
 #' @export
 read_rchk <- function(file, ...) {

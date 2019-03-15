@@ -15,5 +15,6 @@ Imports:
     utils,
     rlang,
     tibble,
-    tidyr
+    tidyr,
+    purrr
 RoxygenNote: 6.1.1
