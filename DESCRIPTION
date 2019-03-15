@@ -1,0 +1,19 @@
+Package: chkmate
+Title: Reads outputs from 'rchk' in a tibble
+Version: 0.0.0.9000
+Authors@R: c(
+      person("Romain", "François", email = "romain@rstudio.com", role = c("aut", "cre"))
+    )
+Description: Reads outputs from 'rchk' in a tibble.
+Depends: R (>= 3.5.0)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    readr,
+    stringr,
+    utils,
+    rlang,
+    tibble,
+    tidyr
+RoxygenNote: 6.1.1
